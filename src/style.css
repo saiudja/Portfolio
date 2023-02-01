@@ -1,0 +1,139 @@
+body {
+  margin-top: 100px;
+  background: #ffffff;
+  font-family: "Sono", sans-serif;
+  max-width: 100%;
+}
+:root {
+  --primary-color: #005792;
+  --secondary-color: #00bbf0;
+  --third-color: #fdb44b;
+  --forth-color: #00204a;
+  --box-shadow: 5px 5px 10px rgba(104, 101, 114, 0.5);
+}
+.my-photo img {
+  width: 100%;
+  height: auto;
+  margin-top: -32px;
+}
+.my-photo {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 56px;
+}
+h2 {
+  color: var(--secondary-color);
+  font-size: 36px;
+  padding: 5px 0;
+}
+h3 {
+  color: var(--forth-color);
+  font-size: 18px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.navigation-links a {
+  margin: 20px;
+}
+.primary-link {
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.primary-link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.secondary-link {
+  text-transform: capitalize;
+  color: var(--primary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.secondary-link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+#contact-mail {
+  font-size: 24px;
+  text-align: center;
+}
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 30% 0px 30%;
+  color: var(--secondary-color);
+}
+.contact a {
+  color: var(--secondary-color);
+}
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+p {
+  color: var(--forth-color);
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+.pro {
+  margin-bottom: 20px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 400px) {
+  h3 {
+    margin: 0 10px;
+  }
+  .primary-link {
+    font-size: 12px;
+  }
+}
+.container-main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+}
