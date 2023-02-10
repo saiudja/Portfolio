@@ -135,7 +135,11 @@ p {
 .container-main {
   width: 100%;
   margin: 0 auto;
-  padding: 10px 20px 10px 20px;
+  padding: 0 30px 40px 30px;
+}
+.hero {
+  background-color: rgba(0, 187, 240, 0.1);
+  margin-top: 56px;
 }
 .hero {
   background-color: rgba(0, 187, 240, 0.1);
