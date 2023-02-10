@@ -1,5 +1,4 @@
 body {
-  margin-top: 100px;
   background: #ffffff;
   font-family: "Sono", sans-serif;
   max-width: 100%;
@@ -21,7 +20,7 @@ body {
   height: 120px;
   overflow: hidden;
   border-radius: 50%;
-  margin: 0 auto 10px auto;
+  margin: 10px auto 10px auto;
 }
 
 h1 {
@@ -45,7 +44,7 @@ h3 {
 .navigation-links {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .navigation-links a {
   margin: 20px;
@@ -137,4 +136,8 @@ p {
   width: 100%;
   margin: 0 auto;
   padding: 10px 20px 10px 20px;
+}
+.hero {
+  background-color: rgba(0, 187, 240, 0.1);
+  margin-top: 56px;
 }
