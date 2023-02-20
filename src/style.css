@@ -95,12 +95,12 @@ h3 {
   color: var(--secondary-color);
 }
 .about-paragraphs {
-  margin: 30px 5px;
-  text-align: justify;
+  margin: 30px 30px;
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  font-style: italic;
+  text-align: justify;
 }
 p {
   color: var(--forth-color);
@@ -135,6 +135,14 @@ p {
   }
   .primary-link {
     font-size: 12px;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .container-main {
+    margin: 0 auto;
   }
 }
 .container-main {
