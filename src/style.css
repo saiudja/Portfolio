@@ -142,7 +142,8 @@ p {
     height: auto;
   }
   .container-main {
-    margin: 0 auto;
+    width: 80%;
+    margin-left: 5px;
   }
 }
 .container-main {
