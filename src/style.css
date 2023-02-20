@@ -88,14 +88,14 @@ h3 {
 .contacts {
   display: flex;
   justify-content: space-evenly;
-  margin: 20px 30% 0px 30%;
+  margin: 30px 30% 0px 30%;
   color: var(--secondary-color);
 }
 .contact a {
   color: var(--secondary-color);
 }
 .about-paragraphs {
-  margin: 30px 30px;
+  margin: 30px 30px 10px 30px;
 }
 
 .about-paragraphs p {
