@@ -22,6 +22,12 @@ body {
   border-radius: 50%;
   margin: 10px auto 10px auto;
 }
+.photo {
+  width: 240px;
+  overflow: hidden;
+  border-radius: 6px;
+  margin: 10px 10% 10px 10%;
+}
 
 h1 {
   color: var(--primary-color);
@@ -55,7 +61,6 @@ h3 {
   margin: 20px;
 }
 .primary-link {
-  text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -97,14 +102,7 @@ h3 {
 .contact a {
   color: var(--secondary-color);
 }
-.about-paragraphs {
-  margin: 30px 30px 10px 30px;
-}
 
-.about-paragraphs p {
-  font-style: italic;
-  text-align: justify;
-}
 p {
   color: var(--forth-color);
   font-size: 16px;
@@ -139,13 +137,12 @@ p {
   .primary-link {
     font-size: 12px;
   }
-
   .container-main {
     width: 80%;
-    margin-left: 5px;
   }
-  p {
-    margin: 10px;
+  .about-section {
+    margin: 66px 20px 30px 20px !important;
+    padding: 0;
   }
 }
 .container-main {
@@ -157,10 +154,14 @@ p {
   background-color: rgba(0, 187, 240, 0.1);
   margin-top: 56px;
 }
-.hero {
-  background-color: rgba(0, 187, 240, 0.1);
-  margin-top: 56px;
-}
 .pages {
-  margin-top: 56px;
+  margin-top: 46px;
+}
+.about-section {
+  margin: 66px 30px 30px 60px;
+  text-align: center;
+}
+.about-section p {
+  font-style: italic;
+  text-align: justify;
 }
