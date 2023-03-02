@@ -152,6 +152,7 @@ p {
 .hero {
   background-color: rgba(0, 187, 240, 0.1);
   margin-top: 56px;
+  padding: 0 30px 10px 30px;
 }
 .hero ul {
   margin: 0 30px 0 30px;
@@ -167,4 +168,8 @@ p {
 .about-section p {
   font-style: italic;
   text-align: justify;
+}
+.git {
+  color: var(--forth-color);
+  font-size: 14px;
 }
