@@ -26,10 +26,71 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/5d487f9432.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="src/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script id="replace_with_navbar" src="src/nav.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="https://saiudja-portfolio.netlify.app"
+          target="_blank"
+          title="Saiudja's portfolio"
+          ><img
+            src="/media/saiudja.png"
+            class="logo d-none d-sm-block"
+            alt="Saiudja logo" />
+          <img
+            src="/media/saiudja-short.png"
+            class="logo d-block d-sm-none"
+            alt="Sai logo"
+        /></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/projects.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/frontend.html" target="_blank"
+                    >Front-end</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Blockchain</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://sai-creative.netlify.app"
+                    target="_blank"
+                    >Creative</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="about-section">
       <div class="row">
         <div class="col-md-6">
@@ -74,42 +135,62 @@
           </ul>
         </div>
       </div>
-    </div>
-    <div class="container main">
-      <div class="row">
-        <div class="col-lg-4">
-          <a href="https://sai-rituals.netlify.app/" target="_blank">
-            <img
-              src="/media/rituals.jpg"
-              class="img-fluid p-2 shadow rounded mt-3"
-            />
-          </a>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mt-5 mb-5 d-none d-sm-flex"
+        >
+          <div>
+            <h4>Work inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div class="mt-2">
+            <a
+              href="mailto:saiudjasai@gmail.com"
+              class="primary-link"
+              title="Saiudja's contacts"
+              >Contact me</a
+            >
+          </div>
         </div>
-        <div class="col-lg-4">
-          <a href="https://sai-weather-app.netlify.app" target="_blank">
-            <img
-              src="/media/weather.jpg"
-              class="img-fluid p-2 shadow rounded mt-3"
-          /></a>
-        </div>
-        <div class="col-lg-4">
+        <div>
           <a
-            href="https://opensea.io/collection/be-ukrainian"
-            title="OpenSea"
-            target="_blank"
+            href="mailto:saiudjasai@gmail.com"
+            class="email-link"
+            title="Saiudja's email"
+            >saiudjasai@gmail.com</a
           >
-            <img
-              src="/media/bayraktar.jpg"
-              class="img-fluid p-2 shadow rounded mt-3"
-          /></a>
         </div>
-      </div>
-    </div>
-    <div id="contact-mail" class="mt-5">
-      <h2 class="text-center">Contact me:</h2>
-      <a href="mailto:saiudjasai@gmail.com" class="email-link"
-        >saiudjasai@gmail.com</a
-      >
+        <div class="social-links mb-3">
+          <a
+            href="https://github.com/saiudja/Creative"
+            target="_blank"
+            title="Saiudja's GitHub"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/olenabaranova/"
+            target="_blank"
+            title="Saiudja's Linkedin"
+            ><i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://twitter.com/saiudjasai"
+            target="_blank"
+            title="Saiudja's twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5 mb-3">
+          This project was coded by Saiudja and it is
+          <a
+            href="https://github.com/saiudja/Creative"
+            target="_blank"
+            title="GitHub"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
