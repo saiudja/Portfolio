@@ -97,6 +97,7 @@ h4 {
 .secondary-link {
   text-transform: capitalize;
   color: var(--primary-color);
+  box-shadow: var(--box-shadow);
   padding: 20px 15px;
   text-decoration: none;
   border-radius: 4px;
