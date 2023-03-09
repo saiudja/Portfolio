@@ -1,6 +1,6 @@
 body {
   background: #ffffff;
-  font-family: "Mukta", sans-serif;
+  font-family: "Roboto", sans-serif;
   max-width: 100%;
 }
 :root {
@@ -8,7 +8,7 @@ body {
   --secondary-color: #00bbf0;
   --third-color: #fdb44b;
   --forth-color: #00204a;
-  --box-shadow: 5px 5px 10px rgba(104, 101, 114, 0.5);
+  --box-shadow: 5px 5px 10px rgba(104, 101, 114, 0.3);
 }
 .my-photo img {
   width: 100%;
@@ -19,7 +19,7 @@ body {
   height: 240px;
   overflow: hidden;
   border-radius: 50%;
-  margin: 10px auto;
+  margin: 50px auto;
 }
 .photo {
   width: 240px;
@@ -33,15 +33,20 @@ body {
 .hero {
   background-color: rgba(0, 187, 240, 0.1);
   margin-top: 56px;
-  padding: 10px 20px;
+  padding: 20px;
 }
 .hero ul {
-  margin: 0 30px 0 30px;
+  margin: 0 30px;
   padding: 0;
   list-style-type: style type;
 }
 .skils {
   margin-top: 0;
+}
+.container-main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 h1 {
   color: var(--primary-color);
@@ -51,19 +56,16 @@ h1 {
 h2 {
   color: var(--secondary-color);
   font-size: 36px;
-  padding: 5px 0;
   font-weight: 500;
 }
 h3 {
   color: var(--forth-color);
   font-size: 18px;
   font-weight: 400;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  opacity: 0.7;
 }
 h4 {
   font-size: 28px;
-  margin: 0;
   color: var(--secondary-color);
 }
 h1,
@@ -71,6 +73,15 @@ h2,
 h3,
 h4 {
   margin: 0;
+  padding: 0;
+}
+p {
+  color: var(--forth-color);
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
 }
 .navigation-links {
   display: flex;
@@ -78,13 +89,13 @@ h4 {
   margin-top: 30px;
 }
 .navigation-links a {
-  margin: 20px;
+  margin: 0 20px;
 }
 .primary-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  padding: 20px 15px;
+  padding: 15px;
   text-decoration: none;
   border-radius: 4px;
   transition: all 200ms ease-in-out;
@@ -92,7 +103,6 @@ h4 {
 }
 .primary-link:hover {
   opacity: 0.7;
-  cursor: pointer;
 }
 .secondary-link {
   text-transform: capitalize;
@@ -120,6 +130,8 @@ h4 {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 .email-link:hover {
   text-decoration: underline;
@@ -133,19 +145,7 @@ h4 {
 .contact a {
   color: var(--secondary-color);
 }
-p {
-  color: var(--forth-color);
-  font-size: 16px;
-  font-weight: 300;
-  padding: 0;
-  margin: 0;
-  text-align: justify;
-}
-.container-main {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+
 .about-section {
   margin: 80px 30px 30px 30px;
   text-align: center;
@@ -157,6 +157,11 @@ p {
 .git {
   color: var(--forth-color);
   font-size: 14px;
+  text-align: center;
+  padding: 0 40px;
+}
+.navbar {
+  background-color: #e5f8fd;
 }
 nav {
   padding: 10px 0;
@@ -187,7 +192,7 @@ footer .contact-box {
   background: rgba(0, 187, 240, 0.1);
   padding: 40px 60px;
   border-radius: 10px;
-  margin: 0 40px 0 40px;
+  margin: 40px;
 }
 footer .contact-box p {
   margin: 0;
