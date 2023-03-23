@@ -229,7 +229,7 @@ footer .primary-link {
 }
 @media (max-width: 420px) {
   h3 {
-    margin: 0 20px 0 20px;
+    margin: 0 10px;
   }
   .about-section {
     margin: 66px 20px 30px 20px !important;
