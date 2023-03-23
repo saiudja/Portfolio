@@ -40,6 +40,10 @@ body {
   padding: 0;
   list-style-type: style type;
 }
+.main {
+  padding: 0 30%;
+  margin-top: 10px;
+}
 .skils {
   margin-top: 0;
 }
