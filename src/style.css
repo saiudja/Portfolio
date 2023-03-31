@@ -46,6 +46,12 @@ body {
 }
 .skils {
   margin-top: 0;
+  text-align: justify;
+  padding: 10px 30px 30px 30px;
+}
+.underline {
+  text-decoration: underline;
+  font-weight: 500;
 }
 #color-third {
   color: var(--third-color);
