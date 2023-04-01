@@ -53,6 +53,7 @@ body {
   text-decoration: underline;
   font-weight: 500;
 }
+
 #color-third {
   color: var(--third-color);
   font-size: 22px;
@@ -244,9 +245,6 @@ footer .primary-link {
   nav {
     font-size: 12px;
   }
-  .logo {
-    max-width: 50px;
-  }
   footer .contact-box {
     padding: 30px;
   }
@@ -259,5 +257,8 @@ footer .primary-link {
   }
   .container-main h2 {
     text-align: center;
+  }
+  .arrows {
+    max-width: 50%;
   }
 }
