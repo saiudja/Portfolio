@@ -30,6 +30,9 @@ body {
   max-width: 100%;
   height: auto;
 }
+.diplom {
+  max-width: 400px;
+}
 .hero {
   background-color: rgba(0, 187, 240, 0.1);
   margin-top: 56px;
@@ -259,6 +262,15 @@ footer .primary-link {
     text-align: center;
   }
   .arrows {
-    max-width: 50%;
+    width: 30%;
+    height: auto;
+  }
+  .navigation-links {
+    block-size: 50px;
+  }
+  .diplom {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
   }
 }
