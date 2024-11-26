@@ -6,7 +6,7 @@ body {
 :root {
   --primary-color: #005792;
   --secondary-color: #00bbf0;
-  --third-color: #fdb44b;
+  --third-color: #f38a12f3;
   --forth-color: #00204a;
   --box-shadow: 5px 5px 10px rgba(104, 101, 114, 0.3);
 }
@@ -15,8 +15,8 @@ body {
   height: auto;
 }
 .my-photo {
-  width: 240px;
-  height: 240px;
+  width: 260px;
+  height: 260px;
   overflow: hidden;
   border-radius: 50%;
   margin: 30px auto;
@@ -64,7 +64,7 @@ body {
 .container-main {
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
 }
 h1 {
   color: var(--primary-color);
@@ -91,20 +91,19 @@ h2,
 h3,
 h4 {
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
 }
 p {
   color: var(--forth-color);
   font-size: 16px;
   font-weight: 300;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
   text-align: justify;
 }
 .navigation-links {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
 }
 .navigation-links a {
   margin: 0 20px;
@@ -152,6 +151,9 @@ p {
 }
 .email-link:hover {
   text-decoration: underline;
+}
+.button {
+  padding: 0 20px;
 }
 .contacts {
   display: flex;
